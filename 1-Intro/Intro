@@ -1,0 +1,208 @@
+
+What is Computer Network?
+
+A computer network is a set of devices connected through links.A node can be computer, printer, or any other device capable of sending or receiving the data. The links connecting the nodes are known as communication channels.
+
+----------------------------------------------------------------------------------------------------------
+
+Components Of Computer Network:
+
+NIC
+	NIC is a device that helps the computer to communicate with another device.
+
+	The MAC address or physical address is encoded on the network card chip which is assigned by the IEEE to identify a network card uniquely. The MAC address is stored in the PROM (Programmable read-only memory).
+
+
+Hub
+	Hub is a central device that splits the network connection into multiple devices.
+
+	When computer requests for information from a network, it sends the request to the Hub. Hub will broadcast this request to the entire network. All the devices will check whether the request belongs to them or not. If not, the request will be dropped.
+
+	Now a days not used much, switch or routers used more.
+
+
+Switches
+	Switch is a networking device that groups all the devices over the network to transfer the data to another device.
+
+	A switch is better than Hub as it does not broadcast the message to the entire network like the Hub
+
+	Switch sends the message directly from source to the destination.
+
+
+Cables and connectors
+	Cable is a transmission media that transmits the communication signals.
+
+	3 types of cables used:
+
+	Twisted pair cable
+	Coaxial cable
+	Fibre-optic cable
+
+
+Router
+	Router is a device that connects the LAN to the internet.
+	Connect the internet to multiple computers.
+	A router works in a Layer 3 (Network layer) of the OSI Reference model.
+	A router forwards the packet based on the information available in the routing table.
+
+	Ex: Jio Fiber
+
+
+Modem
+	Modem connects the computer to the internet over the existing telephone line.
+	A modem is not integrated with the computer motherboard. 
+	A modem is a separate part on the PC slot found on the motherboard.
+	Ex: My iBoll
+
+----------------------------------------------------------------------------------------------------------
+
+2 types of network architectures are used:
+
+Peer-To-Peer network
+
+	Peer-To-Peer network is a network in which all the computers are linked together with equal privilege and responsibilities for processing the data.
+
+	Peer-To-Peer network is useful for small environments, usually up to 10 computers.
+
+	Peer-To-Peer network has no dedicated server.
+
+	Special permissions are assigned to each computer for sharing the resources, but this can lead to a problem if the computer with the resource is down.
+
+
+Client/Server network
+
+	Client/Server network is a network model designed for the end users called clients, to access the resources such as songs, video, etc. from a central computer known as Server.
+
+	A server performs all the major operations such as security and network management.
+
+	A server has a Network Operating System(NOS) to provide the resources to the clients, but the cost of NOS is very high.
+
+----------------------------------------------------------------------------------------------------------
+
+Computer Network Types
+
+	LAN(Local Area Network)
+	PAN(Personal Area Network)
+	MAN(Metropolitan Area Network)
+	WAN(Wide Area Network)
+
+----------------------------------------------------------------------------------------------------------
+
+LAN
+
+	Local Area Network is a group of computers connected to each other in a small area such as building, office.
+
+	Ex: twisted pair, coaxial cable
+
+----------------------------------------------------------------------------------------------------------
+
+PAN
+
+	Personal Area Network is a network arranged within an individual person, typically within a range of 10 meters.
+
+	Ex: Computer connected to Mouse, Headphone, Printer
+
+	2 Types:
+		Wired: USB
+		Wireless: WiFi, Bluetooth
+
+	Low range network.
+
+----------------------------------------------------------------------------------------------------------
+
+MAN
+
+	A metropolitan area network is a network that covers a larger geographic area by interconnecting a different LAN to form a larger network.
+
+	Ex: Communication of Banks in a city.
+
+----------------------------------------------------------------------------------------------------------
+
+WAN
+
+	A Wide Area Network is a network that extends over a large geographical area such as states or countries.
+
+	By telephone line, fibre optic cable or satellite links.
+
+	The internet is one of the biggest WAN in the world.
+
+----------------------------------------------------------------------------------------------------------
+
+Internetwork
+
+	An internetwork is defined as two or more computer network LANs or WAN or computer network segments are connected using device
+
+	An internetworking uses the IP
+
+
+
+2 Types Of Internetwork:
+
+		1. Extranet: 
+			An extranet is a communication network based on the internet protocol such as Transmission Control protocol and internet protocol.
+
+			It is used for information sharing. The access to the extranet is restricted to only those users who have login credentials.
+
+			It can be categorized as MAN, WAN or other computer networks. An extranet cannot have a single LAN, atleast it must have one connection to the external network.
+
+		2. Intranet: 
+			An intranet is a private network based on the internet protocol such as Transmission Control protocol and internet protocol.
+
+			An intranet belongs to an organization which is only accessible by the organization's employee or members
+
+----------------------------------------------------------------------------------------------------------
+
+What is Topology?
+Topology defines the structure of the network of how all the components are interconnected to each other.
+
+2 types of topology: 
+	Physical topology
+		Geometric representation of all the nodes in a network.
+
+	Logical topology
+
+----------------------------------------------------------------------------------------------------------
+
+Bus Topology:
+	The bus topology is designed in such a way that all the stations are connected through a single cable known as a backbone cable.
+
+Ring Topology:
+	The node that receives the message from the previous computer will retransmit to the next node.
+
+Star Topology:
+	Star topology is an arrangement of the network in which every node is connected to the central hub (server), switch or a central computer (client).
+
+Tree Topology:
+	Tree topology combines the characteristics of bus topology and star topology.
+
+Mesh Topology:
+	Mesh technology is an arrangement of the network in which computers are interconnected with each other through various redundant connections.
+
+Hybrid Topology:
+	The combination of various different topologies is known as Hybrid topology.
+
+----------------------------------------------------------------------------------------------------------
+
+Transmission modes (communication mode)
+
+	The way in which data is transmitted from one device to another device is known as transmission mode.
+	The transmission mode is defined in the physical layer.
+
+3 categories:
+
+	Simplex mode
+		Communication is unidirectional
+		Ex: TV, Radio
+
+	Half-duplex mode
+		Messages flow in both the directions, but not at the same time.
+		Ex: Walkie-talkie
+
+	Full-duplex mode
+		Both the stations can send and receive the message simultaneously.
+		Ex: Phone
+		
+----------------------------------------------------------------------------------------------------------
+
+Source:
+https://www.javatpoint.com/computer-network-tutorial
