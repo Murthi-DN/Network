@@ -1,305 +1,378 @@
 
-Tell me something about VPN (Virtual Private Network)
-VPN is a private WAN built on the internet. It allows the creation of a secured tunnel (protected network) between different networks using the internet (public network). By using the VPN, a client can connect to the organization’s network remotely. 
+-------------------------------------------------------------------------
 
+Tell me something about VPN (Virtual Private Network):
+
+* VPN is a private WAN built on the internet. 
+* It allows creation of a secured tunnel (protected network) between different networks using the internet (public network). 
+* By using the VPN, a client can connect to the organization’s network remotely. 
+
+-------------------------------------------------------------------------
 
 What are the advantages of using a VPN?
 
-VPN is used to connect offices in different geographical locations remotely and is cheaper when compared to WAN connections.
-VPN is used for secure transactions and confidential data transfer between multiple offices located in different geographical locations.
-VPN keeps an organization’s information secured against any potential threats or intrusions by using virtualization.
-VPN encrypts the internet traffic and disguises the online identity
+* To connect offices in different geographical locations remotely and is cheaper when compared to WAN connections.
+* For secure transactions and confidential data transfer between multiple offices located in different geographical locations.
+* Keeps an organization’s information secured against any potential threats or intrusions by using virtualization.
+* ncrypts the internet traffic and disguises the online identity
 
+-------------------------------------------------------------------------
 
 What are the different types of VPN?
 
-Access VPN: Access VPN is used to provide connectivity to remote mobile users and telecommuters. It serves as an alternative to dial-up connections or ISDN (Integrated Services Digital Network) connections. It is a low-cost solution and provides a wide range of connectivity.
-Site-to-Site VPN: A Site-to-Site or Router-to-Router VPN is commonly used in large companies having branches in different locations to connect the network of one office to another in different locations. There are 2 sub-categories as mentioned below:
-Intranet VPN: Intranet VPN is useful for connecting remote offices in different geographical locations using shared infrastructure (internet connectivity and servers) with the same accessibility policies as a private WAN (wide area network).
-Extranet VPN: Extranet VPN uses shared infrastructure over an intranet, suppliers, customers, partners, and other entities and connects them using dedicated connections.
+Access VPN: 
+* Used to provide connectivity to remote mobile users and telecommuters. 
+* It serves as an alternative to dial-up connections or ISDN (Integrated Services Digital Network) connections. 
+* It is a low-cost solution and provides a wide range of connectivity.
 
+Site-to-Site VPN:
+* A Site-to-Site or Router-to-Router VPN is commonly used in large companies having branches in different locations to connect the network of one office to another in different locations. 
+* There are 2 sub-categories as mentioned below:
 
+    1. Intranet VPN: 
+    Intranet VPN is useful for connecting remote offices in different geographical locations using shared infrastructure (internet connectivity and servers) with the same accessibility policies as a private WAN (wide area network).
+
+    2. Extranet VPN: Extranet VPN uses shared infrastructure over an intranet, suppliers, customers, partners, and other entities and connects them using dedicated connections.
+
+-------------------------------------------------------------------------
 
 What is the network topology?
-Network topology is a physical layout of the network, connecting the different nodes using the links. It depicts the connectivity between the computers, devices, cables, etc
 
+* Network topology is a physical layout of the network, connecting the different nodes using the links. 
+* It depicts the connectivity between the computers, devices, cables, etc
 
+-------------------------------------------------------------------------
 
 What is an IPv4 address?
-An IP address is a 32-bit dynamic address of a node in the network. 
-An IPv4 address has 4 octets of 8-bit each with each number with a value up to 255.
 
+* An IP address is a 32-bit dynamic address of a node in the network. 
+* An IPv4 address has 4 octets of 8-bit each with each number with a value up to 255.
 
+-------------------------------------------------------------------------
 
 What are Private?
-Private Address: For each class, there are specific IPs that are reserved specifically for private use only. This IP address cannot be used for devices on the Internet as they are non-routable.
 
+* For each class, there are specific IPs that are reserved specifically for private use only. 
+* This IP address cannot be used for devices on the Internet as they are non-routable.
 
-Describe the OSI Reference Model
+-------------------------------------------------------------------------
+
+Describe the OSI Reference Model:
+
 Open System Interconnections (OSI) is a network architecture model based on the ISO standards
 
+-------------------------------------------------------------------------
 
+Describe the TCP/IP Reference Model:
 
-Describe the TCP/IP Reference Model
-It is a compressed version of the OSI model with only 4 layers. It was developed by the US Department of Defence (DoD) in the 1980s. The name of this model is based on 2 standard protocols used i.e. TCP (Transmission Control Protocol) and IP (Internet Protocol)
+* It is a compressed version of the OSI model with only 4 layers. 
+* It was developed by the US Department of Defence (DoD) in the 1980s. 
+* The name of this model is based on 2 standard protocols used i.e. TCP (Transmission Control Protocol) and IP (Internet Protocol)
 
-
+-------------------------------------------------------------------------
 
 What are the HTTP and the HTTPS protocol?
-HTTP is the HyperText Transfer Protocol which defines the set of rules and standards on how the information can be transmitted on the World Wide Web (WWW).  It helps the web browsers and web servers for communication. It is a ‘stateless protocol’ where each command is independent with respect to the previous command. HTTP is an application layer protocol built upon the TCP. It uses port 80 by default.
 
+* HTTP is the HyperText Transfer Protocol which defines the set of rules and standards on how the information can be transmitted on the World Wide Web (WWW).  
+* It helps the web browsers and web servers for communication. 
+* It is a ‘stateless protocol’ where each command is independent with respect to the previous command. 
+* HTTP is an application layer protocol built upon the TCP. 
+* It uses port 80 by default.
 
+* HTTPS is the HyperText Transfer Protocol Secure or Secure HTTP. 
+* It is an advanced and secured version of HTTP. 
+* On top of HTTP, SSL/TLS protocol is used to provide security. 
+* It enables secure transactions by encrypting the communication and also helps identify network servers securely. 
+* It uses port 443 by default
 
-HTTPS is the HyperText Transfer Protocol Secure or Secure HTTP. It is an advanced and secured version of HTTP. On top of HTTP, SSL/TLS protocol is used to provide security. It enables secure transactions by encrypting the communication and also helps identify network servers securely. It uses port 443 by default
-
-
+-------------------------------------------------------------------------
 
 What is the TCP protocol?
-TCP or TCP/IP is the Transmission Control Protocol/Internet Protocol. It is a set of rules that decides how a computer connects to the Internet and how to transmit the data over the network. It creates a virtual network when more than one computer is connected to the network and uses the three ways handshake model to establish the connection which makes it more reliable.
 
+* TCP or TCP/IP is the Transmission Control Protocol/Internet Protocol. 
+* It is a set of rules that decides how a computer connects to the Internet and how to transmit the data over the network. 
+* It creates a virtual network when more than one computer is connected to the network and uses the three ways handshake model to establish the connection which makes it more reliable.
 
+-------------------------------------------------------------------------
 
 What is the UDP protocol?
-UDP is the User Datagram Protocol and is based on Datagrams. Mainly, it is used for multicasting and broadcasting. Its functionality is almost the same as TCP/IP Protocol except for the three ways of handshaking and error checking. It uses a simple transmission without any hand-shaking which makes it less reliable
 
+* UDP is the User Datagram Protocol and is based on Datagrams. 
+* Mainly, it is used for multicasting and broadcasting. 
+* Its functionality is almost the same as TCP/IP Protocol except for the three ways of handshaking and error checking. 
+* It uses a simple transmission without any hand-shaking which makes it less reliable
+
+-------------------------------------------------------------------------
 
 What is the ICMP protocol?
-ICMP is the Internet Control Message Protocol. It is a network layer protocol used for error handling. It is mainly used by network devices like routers for diagnosing the network connection issues and crucial for error reporting and testing if the data is reaching the preferred destination in time. It uses port 7 by default.
 
+* ICMP is the Internet Control Message Protocol. 
+* It is a network layer protocol used for error handling. 
+* It is mainly used by network devices like routers for diagnosing the network connection issues and crucial for error reporting and testing if the data is reaching the preferred destination in time. It uses port 7 by default.
+
+-------------------------------------------------------------------------
 
 What do you mean by the DHCP Protocol?
-DHCP is the Dynamic Host Configuration Protocol.
 
-It is an application layer protocol used to auto-configure devices on IP networks enabling them to use the TCP and UDP-based protocols. The DHCP servers auto-assign the IPs and other network configurations to the devices individually which enables them to communicate over the IP network. It helps to get the subnet mask, IP address and helps to resolve the DNS. It uses port 67 by default
+* DHCP is the Dynamic Host Configuration Protocol.
+* It is an application layer protocol used to auto-configure devices on IP networks enabling them to use the TCP and UDP-based protocols. 
+* The DHCP servers auto-assign the IPs and other network configurations to the devices individually which enables them to communicate over the IP network. 
+* It helps to get the subnet mask, IP address and helps to resolve the DNS. It uses port 67 by default
 
-
+-------------------------------------------------------------------------
 
 What is the ARP protocol?
-ARP is Address Resolution Protocol. It is a network-level protocol used to convert the logical address i.e. IP address to the device's physical address i.e. MAC address. It can also be used to get the MAC address of devices when they are trying to communicate over the local network.
 
+* ARP is Address Resolution Protocol. 
+* It is a network-level protocol used to convert the logical address i.e. IP address to the device's physical address i.e. MAC address. 
+* It can also be used to get the MAC address of devices when they are trying to communicate over the local network.
 
+-------------------------------------------------------------------------
 
 What is the FTP protocol?
-FTP is a File Transfer Protocol. It is an application layer protocol used to transfer files and data reliably and efficiently between hosts. It can also be used to download files from remote servers to your computer. It uses port 27 by default.
 
+* FTP is a File Transfer Protocol. 
+* It is an application layer protocol used to transfer files and data reliably and efficiently between hosts. 
+* It can also be used to download files from remote servers to your computer. 
+* It uses port 27 by default.
+
+-------------------------------------------------------------------------
 
 What is the MAC address and how is it related to NIC?
-MAC address is the Media Access Control address. It is a 48-bit or 64-bit unique identifier of devices in the network. It is also called the physical address embedded with Network Interface Card (NIC) used at the Data Link Layer. NIC is a hardware component in the networking device using which a device can connect to the network
 
+* MAC address is the Media Access Control address. 
+* It is a 48-bit or 64-bit unique identifier of devices in the network. 
+* It is also called the physical address embedded with Network Interface Card (NIC) used at the Data Link Layer. 
+* NIC is a hardware component in the networking device using which a device can connect to the network
 
+-------------------------------------------------------------------------
 
 What is a subnet?
-A subnet is a network inside a network achieved by the process called subnetting which helps divide a network into subnets. It is used for getting a higher routing efficiency and enhances the security of the network. It reduces the time to extract the host address from the routing table.
 
+* A subnet is a network inside a network achieved by the process called subnetting which helps divide a network into subnets. 
+* It is used for getting a higher routing efficiency and enhances the security of the network. 
+* It reduces the time to extract the host address from the routing table.
+
+-------------------------------------------------------------------------
 
 What is the firewall?
-The firewall is a network security system that is used to monitor the incoming and outgoing traffic and blocks the same based on the firewall security policies. It acts as a wall between the internet (public network) and the networking devices (a private network). It is either a hardware device, software program, or a combination of both. It adds a layer of security to the network.
 
+* The firewall is a network security system that is used to monitor the incoming and outgoing traffic and blocks the same based on the firewall security policies. 
+* It acts as a wall between the internet (public network) and the networking devices (a private network). 
+* It is either a hardware device, software program, or a combination of both. 
+* It adds a layer of security to the network.
 
-
+-------------------------------------------------------------------------
 
 What happens when you enter google.com in the web browser?
-Below are the steps that are being followed:
 
-Check the browser cache first if the content is fresh and present in cache display the same.
-If not, the browser checks if the IP of the URL is present in the cache (browser and OS) if not then request the OS to do a DNS lookup using UDP to get the corresponding IP address of the URL from the DNS server to establish a new TCP connection.
-A new TCP connection is set between the browser and the server using three-way handshaking.
-An HTTP request is sent to the server using the TCP connection.
-The web servers running on the Servers handle the incoming HTTP request and send the HTTP response.
-The browser process the HTTP response sent by the server and may close the TCP connection or reuse the same for future requests.
-If the response data is cacheable then browsers cache the same.
-Browser decodes the response and renders the content.
+* Check the browser cache first if the content is fresh and present in cache display the same.
+* If not, the browser checks if the IP of the URL is present in the cache (browser and OS)
+* If not then request the OS to do a DNS lookup using UDP to get the corresponding IP address of the URL from the DNS server to establish a new TCP connection.
+* A new TCP connection is set between the browser and the server using three-way handshaking.
+* An HTTP request is sent to the server using the TCP connection.
+* The web servers running on the Servers handle the incoming HTTP request and send the HTTP response.
+* The browser process the HTTP response sent by the server and may close the TCP connection or reuse the same for future requests.
+* If the response data is cacheable then browsers cache the same.
+* Browser decodes the response and renders the content.
 
-
-
-
+-------------------------------------------------------------------------
 
 What is bandwidth?
-Every signal has a limit of upper range frequency and lower range frequency. The range of limit of network between its upper and lower frequency is called bandwidth.
 
+* Every signal has a limit of upper range frequency and lower range frequency. 
+* The range of limit of network between its upper and lower frequency is called bandwidth.
 
-
-
+-------------------------------------------------------------------------
 
 What is a gateway? Is there any difference between a gateway and router?
-A node that is connected to two or more networks is commonly known as a gateway. It is also known as a router. It is used to forward messages from one network to another. Both the gateway and router regulate the traffic in the network.
+
+* A node that is connected to two or more networks is commonly known as a gateway. It is also known as a router. It is used to forward messages from one network to another. Both the gateway and router regulate the traffic in the network.
+
+-------------------------------------------------------------------------
 
 Differences between gateway and router:
 
-A router sends the data between two similar networks while gateway sends the data between two dissimilar networks.
+* A router sends the data between two similar networks 
+* Gateway sends the data between two dissimilar networks.
 
+-------------------------------------------------------------------------
 
+What is DNS? (Domain Name System)
 
+* It is a naming system for all the resources over the internet which includes physical nodes and applications. 
+* It is used to locate to resource easily over a network.
+* DNS is an internet which maps the domain names to their associated IP addresses.
+* Without DNS, users must know the IP address of the web page that you wanted to access.
 
-
-
-
-What is DNS?
-DNS is an acronym stands for Domain Name System.
-
-DNS was introduced by Paul Mockapetris and Jon Postel in 1983.
-It is a naming system for all the resources over the internet which includes physical nodes and applications. It is used to locate to resource easily over a network.
-DNS is an internet which maps the domain names to their associated IP addresses.
-Without DNS, users must know the IP address of the web page that you wanted to access.
-
+-------------------------------------------------------------------------
 
 Working of DNS:
 
-If you want to visit the website of "javaTpoint", then the user will type "https://www.javatpoint.com" into the address bar of the web browser. Once the domain name is entered, then the domain name system will translate the domain name into the IP address which can be easily interpreted by the computer. Using the IP address, the computer can locate the web page requested by the user.
+* If you want to visit the website of "javaTpoint", then the user will type "https://www.javatpoint.com" into the address bar of the web browser. 
+* Once the domain name is entered, then the domain name system will translate the domain name into the IP address which can be easily interpreted by the computer. 
+* Using the IP address, the computer can locate the web page requested by the user.
 
-
-
-
-
+-------------------------------------------------------------------------
 
 What is DNS forwarder?
-A forwarder is used with DNS server when it receives DNS queries that cannot be resolved quickly. So it forwards those requests to external DNS servers for resolution.
-A DNS server which is configured as a forwarder will behave differently than the DNS server which is not configured as a forwarder.
-Following are the ways that the DNS server behaves when it is configured as a forwarder:
-When the DNS server receives the query, then it resolves the query by using a cache.
-If the DNS server is not able to resolve the query, then it forwards the query to another DNS server.
-If the forwarder is not available, then it will try to resolve the query by using root hint.
 
+* A forwarder is used with DNS server when it receives DNS queries that cannot be resolved quickly. 
+* So it forwards those requests to external DNS servers for resolution.
+* A DNS server which is configured as a forwarder will behave differently than the DNS server which is not configured as a forwarder.
+* Following are the ways that the DNS server behaves when it is configured as a forwarder:
+    * When the DNS server receives the query, then it resolves the query by using a cache.
+    * If the DNS server is not able to resolve the query, then it forwards the query to another DNS server.
+    * If the forwarder is not available, then it will try to resolve the query by using root hint.
 
+-------------------------------------------------------------------------
 
+What is NIC? (Network Interface Card)
 
+* It is a peripheral card attached to the PC to connect to a network. 
+* Every NIC has its own MAC address that identifies the PC on the network.
+* It provides a wireless connection to a local area network.
+* NICs were mainly used in desktop computers.
 
-
-
-What is NIC?
-NIC stands for Network Interface Card. It is a peripheral card attached to the PC to connect to a network. Every NIC has its own MAC address that identifies the PC on the network.
-It provides a wireless connection to a local area network.
-NICs were mainly used in desktop computers.
-
-
-
-
-
-
+-------------------------------------------------------------------------
 
 What is NOS in computer networking?
-NOS stands for Network Operating System. It is specialized software which is used to provide network connectivity to a computer to make communication possible with other computers and connected devices.
-NOS is the software which allows the device to communicate, share files with other devices.
-The first network operating system was Novel NetWare released in 1983. Some other examples of NOS are Windows 2000, Windows XP, Linux, etc.
 
+* NOS stands for Network Operating System. 
+* It is specialized software which is used to provide network connectivity to a computer to make communication possible with other computers and connected devices.
+* NOS is the software which allows the device to communicate, share files with other devices.
 
-
-
-
+-------------------------------------------------------------------------
 
 What is private IP address?
-There are three ranges of IP addresses that have been reserved for IP addresses. They are not valid for use on the internet. If you want to access internet on these private IPs, you must have to use proxy server or NAT server.
 
+* There are 3 ranges of IP addresses that have been reserved for IP addresses. 
+* They are not valid for use on the internet. 
+* If you want to access internet on these private IPs, you must have to use proxy server or NAT server.
 
-
-
-
+-------------------------------------------------------------------------
 
 What is public IP address?
+
 A public IP address is an address taken by the Internet Service Provider which facilitates you to communication on the internet.
 
-
-
-
+-------------------------------------------------------------------------
 
 What is protocol?
+
 A protocol is a set of rules which is used to govern all the aspects of information communication.
 
-
-
+-------------------------------------------------------------------------
 
 What are the main elements of a protocol?
 
-Syntax: It specifies the structure or format of the data. It also specifies the order in which they are presented.
-Semantics: It specifies the meaning of each section of bits.
-Timing: Timing specifies two characteristics: When data should be sent and how fast it can be sent.
+Syntax: 
+    * It specifies the structure or format of the data. 
+    * It also specifies the order in which they are presented.
 
+Semantics: 
+    * It specifies the meaning of each section of bits.
 
+Timing: 
+    * Timing specifies two characteristics: When data should be sent and how fast it can be sent.
 
+-------------------------------------------------------------------------
 
- What is netstat?
-The "netstat" is a command line utility program. It gives useful information about the current TCP/IP setting of a connection.
+What is netstat?
 
+* The "netstat" is a command line utility program. 
+* It gives useful information about the current TCP/IP setting of a connection.
 
-
-
-
+-------------------------------------------------------------------------
 
 What is multiplexing in networking?
-In Networking, multiplexing is the set of techniques that is used to allow the simultaneous transmission of multiple signals across a single data link.
 
+* In Networking, multiplexing is the set of techniques that is used to allow the simultaneous transmission of multiple signals across a single data link.
 
+-------------------------------------------------------------------------
 
 What is data encapsulation?
-Data encapsulation is the process of breaking down information into smaller, manageable chunks before it is transmitted across the network. In this process that the source and destination addresses are attached to the headers, along with parity checks.
 
+* Data encapsulation is the process of breaking down information into smaller, manageable chunks before it is transmitted across the network. 
+* In this process that the source and destination addresses are attached to the headers, along with parity checks.
 
+-------------------------------------------------------------------------
 
+Briefly describe NAT: (Network Address Translation)
 
-Briefly describe NAT
+* This is a protocol that provides a way for multiple computers on a common network to share a single connection to the Internet.
 
-NAT is Network Address Translation. This is a protocol that provides a way for multiple computers on a common network to share a single connection to the Internet.
-
+-------------------------------------------------------------------------
 
 What are the different ways of securing a computer network?
 
-There are several ways to do this. Install a reliable and updated anti-virus program on all computers. Make sure firewalls are setup and configured correctly. User authentication will also help a lot. All these combined would make a highly secured network.
+* There are several ways to do this. 
+* Install a reliable and updated anti-virus program on all computers. 
+* Make sure firewalls are setup and configured correctly. 
+* User authentication will also help a lot. 
+* All these combined would make a highly secured network.
 
-
+-------------------------------------------------------------------------
 
 What are proxy servers, and how do they protect computer networks?
 
-Proxy servers primarily prevent external users who are identifying the IP addresses of an internal network. Without knowledge of the correct IP address, even the physical location of the network cannot be identified. Proxy servers can make a network virtually invisible to external users.
+* Proxy servers primarily prevent external users who are identifying the IP addresses of an internal network. 
+* Without knowledge of the correct IP address, even the physical location of the network cannot be identified. 
+* Proxy servers can make a network virtually invisible to external users.
 
-
+-------------------------------------------------------------------------
 
 What is the importance of implementing a Fault Tolerance System?
 
-A fault tolerance system ensures continuous data availability. This is done by eliminating a single point of failure.
+* A fault tolerance system ensures continuous data availability. 
+* This is done by eliminating a single point of failure.
 
+-------------------------------------------------------------------------
 
+What is DoS? (Denial-of-Service attack)
 
+* Is an attempt to prevent users from being able to access the Internet or any other network services. 
+* Such attacks may come in different forms and are done by a group of perpetrators. 
+* One common method of doing this is to overload the system server so it cannot anymore process legitimate traffic and will be forced to reset.
 
-
-
-What is DoS?
-
-DoS, or Denial-of-Service attack, is an attempt to prevent users from being able to access the Internet or any other network services. Such attacks may come in different forms and are done by a group of perpetrators. One common method of doing this is to overload the system server so it cannot anymore process legitimate traffic and will be forced to reset.
-
-
-
-
-
+-------------------------------------------------------------------------
 
 What are gateways?
 
-Gateways provide connectivity between two or more network segments. It is usually a computer that runs the gateway software and provides translation services. This translation is key in allowing different systems to communicate on the network.
+* Gateways provide connectivity between two or more network segments. 
+* It is usually a computer that runs the gateway software and provides translation services. 
+* This translation is key in allowing different systems to communicate on the network.
 
+-------------------------------------------------------------------------
 
+Describe Ethernet:
 
+* Ethernet is used in local area networks.
 
-Describe Ethernet.
-
-Ethernet is one of the popular networking technologies used these days. It was developed during the early 1970s and is based on specifications, as stated in the IEEE. Ethernet is used in local area networks.
-
+-------------------------------------------------------------------------
 
 Define Digital Signatures?
 
-As the name sounds are the new alternative to sign a document digitally. It ensures that the message is sent to the intended use without any tampering by any third party (attacker). In simple words, digital signatures are used to verify the authenticity of the message sent electronically.
+* As the name sounds are the new alternative to sign a document digitally. 
+* It ensures that the message is sent to the intended use without any tampering by any third party (attacker). 
+* In simple words, digital signatures are used to verify the authenticity of the message sent electronically.
+* Or we can say that – A digital signature is a mathematical technique used to validate the authenticity and integrity of a message, software, or digital document.
 
-or we can say that – A digital signature is a mathematical technique used to validate the authenticity and integrity of a message, software, or digital document.
-
+-------------------------------------------------------------------------
 
 What is a reverse proxy?
 
-Reverse Proxy Server: The job of a reverse proxy server to listen to the request made by the client and redirect to the particular web server which is present on different servers. This is also used to restrict the access of the clients to the confidential data residing on the particular servers
+* The job of a reverse proxy server to listen to the request made by the client and redirect to the particular web server which is present on different servers. 
+* This is also used to restrict the access of the clients to the confidential data residing on the particular servers
 
+-------------------------------------------------------------------------
 
 What do you mean by Classes of Network?
-Class A	 0.0.0.0 to 127.255.255.255
-Class B	 128.0.0.0 to 191.255.255.255
-Class C	 192.0.0.0 to 223.255.255.255
-Class D	 224.0.0.0 to 239.255.255.255
-Class E	 240.0.0.0 to 247.255.255.255
 
+Class A	 = 0.0.0.0 to 127.255.255.255
+Class B	 = 128.0.0.0 to 191.255.255.255
+Class C	 = 192.0.0.0 to 223.255.255.255
+Class D	 = 224.0.0.0 to 239.255.255.255
+Class E	 = 240.0.0.0 to 247.255.255.255
 
+-------------------------------------------------------------------------

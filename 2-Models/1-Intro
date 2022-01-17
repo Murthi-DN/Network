@@ -1,92 +1,102 @@
 
-Computer Network Models
+-------------------------------------------------------------------------
 
-	ISO has developed a layered approach. In a layered approach, networking concept is divided into several layers, and each layer is assigned a particular task. Therefore, we can say that networking tasks depend upon the layers.
+Computer Network Models:
 
-----------------------------------------------------------------------------------------------------------
+* ISO has developed a layered approach. 
+* In a layered approach, networking concept is divided into several layers, and each layer is assigned a particular task.
+* Therefore, we can say that networking tasks depend upon the layers.
 
-Layered Architecture
+-------------------------------------------------------------------------
 
-	The main aim of the layered architecture is to divide the design into small pieces.
+Layered Architecture:
 
-	Each lower layer adds its services to the higher layer to provide a full set of services to manage communications and run the applications.
+* The main aim of the layered architecture is to divide the design into small pieces.
+* Each lower layer adds its services to the higher layer to provide a full set of services to manage communications and run the applications.
+* The basic elements of layered architecture are services, protocols, and interfaces.
 
-	The basic elements of layered architecture are services, protocols, and interfaces.
+Service: 
+	It is a set of actions that a layer provides to the higher layer.
 
-	Service: 
-		It is a set of actions that a layer provides to the higher layer.
-	Protocol: 
-		It defines a set of rules that a layer uses to exchange the information with peer entity. These rules mainly concern about both the contents and order of the messages used.
-	Interface: 
-		It is a way through which the message is transferred from one layer to another layer.
+Protocol: 
+	It defines a set of rules that a layer uses to exchange the information with peer entity. 
+	These rules mainly concern about both the contents and order of the messages used.
+
+Interface: 
+	It is a way through which the message is transferred from one layer to another layer.
 
 A set of layers and protocols is known as network architecture.
 
-----------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------
 
-OSI Model (Open System Interconnection)
+OSI Model (Open System Interconnection):
 
-	Is a reference model that describes how information from a software application in one computer moves through a physical medium to the software application in another computer.
+* Is a reference model that describes how information from a software application in one computer moves through a physical medium to the software application in another computer.
 
-	OSI consists of 7 layers, and each layer performs a particular network function.
+* OSI consists of 7 layers, and each layer performs a particular network function.
 
-----------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------
 
 The OSI model is divided into two layers:
 
-Upper layers
-	The upper layer of the OSI model mainly deals with the application related issues, and they are implemented only in the software.
-	The application layer is closest to the end user. 
-	Both the end user and the application layer interact with the software applications
+Upper layers:
 
-Lower layers
-	The lower layer of the OSI model deals with the data transport issues. 
-	The data link layer and the physical layer are implemented in hardware and software. 
-	The physical layer is the lowest layer of the OSI model and is closest to the physical medium. 
-	The physical layer is mainly responsible for placing the information on the physical medium.
+* The upper layer of the OSI model mainly deals with the application related issues, and they are implemented only in the software.
+* The application layer is closest to the end user. 
+* Both the end user and the application layer interact with the software applications
 
-----------------------------------------------------------------------------------------------------------
+Lower layers:
 
-Responsible of Host
+* The lower layer of the OSI model deals with the data transport issues. 
+* The data link layer and the physical layer are implemented in hardware and software. 
+* The physical layer is the lowest layer of the OSI model and is closest to the physical medium. 
+* The physical layer is mainly responsible for placing the information on the physical medium.
 
-	Application Layer
-		Provide services to User
+-------------------------------------------------------------------------
 
-	Presentation Layer 
-		Responsible for translation, compression, encryption
+Responsible of Host:
 
-	Session Layer 
-		To establish, manage, terminate the session
+Application Layer:
+* Provide services to User
 
-	Transport Layer
-		Provide reliabile message delivery from process to process, transmitted in the order in which they are sent and there is no duplication of data
+Presentation Layer:
+* Responsible for translation, compression, encryption
 
-		Data get converts into smaller units known as segments.
+Session Layer:
+* To establish, manage, terminate the session
 
-		2 protocols used in this layer are:
+Transport Layer:
+* Provide reliabile message delivery from process to process, transmitted in the order in which they are sent and there is no duplication of data
 
-		TCP (Transmission Control Protocol)
-			It is a standard protocol that allows the systems to communicate over the internet.
-			It establishes and maintains a connection between hosts.
-			When data is sent over the TCP connection, then the TCP protocol divides the data into smaller units known as segments. 
-			Each segment travels over the internet using multiple routes, and they arrive in different orders at the destination. 
-			The transmission control protocol reorders the packets in the correct order at the receiving end.
-			
-		UDP (User Datagram Protocol)
-			User Datagram Protocol is a transport layer protocol.
-			It is an unreliable transport protocol as in this case receiver does not send any acknowledgment when the packet is received, the sender does not wait for any acknowledgment. 
-			Therefore, this makes a protocol unreliable.
+Data get converts into smaller units known as segments.
+
+2 protocols used in this layer are:
+
+TCP (Transmission Control Protocol):
+
+	* It is a standard protocol that allows the systems to communicate over the internet.
+	* It establishes and maintains a connection between hosts.
+	* When data is sent over the TCP connection, then the TCP protocol divides the data into smaller units known as segments. 
+	* Each segment travels over the internet using multiple routes, and they arrive in different orders at the destination. 
+	* The transmission control protocol reorders the packets in the correct order at the receiving end.
+	
+UDP (User Datagram Protocol):
+
+	* User Datagram Protocol is a transport layer protocol.
+	* It is an unreliable transport protocol as in this case receiver does not send any acknowledgment when the packet is received, the sender does not wait for any acknowledgment. 
+	* Therefore, this makes a protocol unreliable.
 
 
-Responsible of Network
 
-	Network Layer
-		Responsible for moving packets from source to destination
+Responsible of Network:
 
-	Data-Link Layer
-		Used for error free transfer of data frames or  format of the data, translates the physical's raw bit stream into packets known as Frames
+Network Layer:
+* Responsible for moving packets from source to destination
 
-	Physical Layer
-		Provides physical medium through which bits are transmitted
+Data-Link Layer:
+* Used for error free transfer of data frames or  format of the data, translates the physical's raw bit stream into packets known as Frames
 
-----------------------------------------------------------------------------------------------------------
+Physical Layer:
+* Provides physical medium through which bits are transmitted
+
+-------------------------------------------------------------------------
