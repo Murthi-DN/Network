@@ -3,121 +3,163 @@
 
 TCP/IP Model:
 
-* The TCP/IP model was developed prior to the OSI model.
-* The TCP/IP model is not exactly similar to the OSI model.
+* Compressed version of OSI model with only 5 layers
+* Is not exactly similar to OSI model
+* The TCP/IP model consists of 5 layers:
 
-The TCP/IP model consists of 5 layers:
+	* Application layer
+	* Transport layer
+	* Network layer
 
-* Application layer
-* Transport layer
-* Network layer
-
-* Data link layer
-* Physical layer
-
-The first four layers provide physical standards, network interface, internetworking, and transport functions that correspond to the first four layers of the OSI model and these four layers are represented in TCP/IP model by a single layer called the application layer.
-
-TCP/IP is a hierarchical protocol made up of interactive modules, and each of them provides specific functionality.
+	* Data link layer
+	* Physical layer
 
 -------------------------------------------------------------------------
 
-Network Access Layer:
+Network Access Layer (Physical & Data Link layer):
 
-* A network layer is the (1st) lowest layer of the TCP/IP model.
-* A network layer is the combination of the Physical layer and Data Link layer defined in the OSI reference model.
-* It defines how the data should be sent physically through the network.
+* Defines how data should be sent physically through network
 
-The protocols used by this layer are 
-* Ethernet
-* Token Ring 
-* FDDI
-* X.25
-* Frame relay
+* The protocols used by this layer are:
+
+	* Ethernet
+	* Token Ring 
+	* FDDI
+	* X.25
+	* Frame relay
 
 -------------------------------------------------------------------------
 
-Internet Layer:
+Internet Layer (Network Layer):
 
-* An internet layer is the second layer of the TCP/IP model.
-* An internet layer is also known as the network layer.
-* The main responsibility of the internet layer is to send the packets from any network, and they arrive at the destination irrespective of the route they take.
+* To send packets from any network, and they arrive at the destination irrespective of the route they take
 
+* The protocols used by this layer are:
 
-Following are the protocols used in this layer:
-
-IP Protocol:
-
-	Following are the responsibilities of this protocol:
-
-	IP Addressing:
-		This protocol implements logical host addresses known as IP addresses. 
-		The IP addresses are used by the internet and higher layers to identify the device and to provide internetwork routing.
-
-	Host-to-host communication: 
-		It determines the path through which the data is to be transmitted.
-
-	Data Encapsulation and Formatting: 
-		An IP protocol accepts the data from the transport layer protocol. 
-		An IP protocol ensures that the data is sent and received securely, it encapsulates the data into message known as IP datagram.
-
-	Fragmentation and Reassembly: 
-		The limit imposed on the size of the IP datagram by data link layer protocol is known as Maximum Transmission unit (MTU).
-		If the size of IP datagram is greater than the MTU unit, then the IP protocol splits the datagram into smaller units so that they can travel over the local network.
-
-	Routing: 
-		When IP datagram is sent over the same local network such as LAN, MAN, WAN, it is known as direct delivery. 
-		When source and destination are on the distant network, then the IP datagram is sent indirectly. 
-		This can be accomplished by routing the IP datagram through various devices such as routers.
-
-
-ARP (Address Resolution Protocol)
-	ARP is a network layer protocol which is used to find the physical address from the IP address.
-
-ICMP Protocol (Internet Control Message Protocol)
-	It is a mechanism used by the hosts or routers to send notifications regarding datagram problems back to the sender.
-
-	A datagram travels from router-to-router until it reaches its destination. If a router is unable to route the data because of some unusual conditions such as disabled links, a device is on fire or network congestion, then the ICMP protocol is used to inform the sender that the datagram is undeliverable.
-
-	The core responsibility of the ICMP protocol is to report the problems, not correct them. The responsibility of the correction lies with the sender.
+	* IP Protocol
+	* ARP
+	* ICMP
 
 -------------------------------------------------------------------------
 
 Transport Layer:
 
-The transport layer is responsible for the reliability, flow control, and correction of data which is being sent over the network.
+* Responsible for reliability, flow control, and correction of data
 
-2 protocols used in the transport layer:
+* The protocols used by this layer are:
 
-* User Datagram Protocol (UDP)
-* Transmission Control Protocol (TCP)
+	* UDP (User Datagram Protocol)
+	* TCP (Transmission Control Protocol)
 
 -------------------------------------------------------------------------
 
 Application Layer:
 	
-This layer allows the user to interact with the application.
+* To interact with application
 
-When one application layer protocol wants to communicate with another application layer, it forwards its data to the transport layer.
+* The protocols used by this layer are:
+
+	* HTTP
+	* SMTP
+	* FTP
+	* DNS
+	* TELNET
+	* SNMP
+
+-------------------------------------------------------------------------
 
 
-Following are the main protocols used in the application layer:
 
-HTTP: 
-	HTTP stands for Hypertext transfer protocol. This protocol allows us to access the data over the world wide web. It transfers the data in the form of plain text, audio, video. It is known as a Hypertext transfer protocol as it has the efficiency to use in a hypertext environment where there are rapid jumps from one document to another.
 
-SNMP: 
-	SNMP stands for Simple Network Management Protocol. It is a framework used for managing the devices on the internet by using the TCP/IP protocol suite.
+-------------------------------------------------------------------------
 
-SMTP: 
-	SMTP stands for Simple mail transfer protocol. The TCP/IP protocol that supports the e-mail is known as a Simple mail transfer protocol. This protocol is used to send the data to another e-mail address.
+IP Protocol:
+	
+	* Implements logical host addresses as IP address to identify devices
 
-DNS: 
-	DNS stands for Domain Name System. An IP address is used to identify the connection of a host to the internet uniquely. But, people prefer to use the names instead of addresses. Therefore, the system that maps the name to the address is known as Domain Name System.
+-------------------------------------------------------------------------
 
-TELNET: 
-	It is an abbreviation for Terminal Network. It establishes the connection between the local computer and remote computer in such a way that the local terminal appears to be a terminal at the remote system.
+ARP (Address Resolution Protocol):
 
-FTP: 
-	FTP stands for File Transfer Protocol. FTP is a standard internet protocol used for transmitting the files from one computer to another computer.
+	* To find MAC/Physical address from the IP address
+
+-------------------------------------------------------------------------
+
+ICMP Protocol (Internet Control Message Protocol):
+
+	* Used for error handling
+	* The core responsibility is to report problems
+
+-------------------------------------------------------------------------
+
+What is HTTP?
+
+* Defines set of rules and standards on how data can be transmitted on Internet  
+* A Stateless Protocol where each command is independent with respect to the previous command
+
+-------------------------------------------------------------------------
+
+What is HTTPS?
+
+* Advanced and secured version of HTTP
+* SSL/TLS protocol is used to provide security
+* Enables secure transactions by encrypting data and also helps identify network servers securely
+
+-------------------------------------------------------------------------
+
+What is TCP protocol?
+
+* Set of rules that decides how a computer connects to Internet and how to transmit data over network
+* Creates a virtual network when more than 1 computer is connected to network
+* And uses 3 ways hand-shake model to establish reliable connection
+
+-------------------------------------------------------------------------
+
+What is the UDP protocol?
+
+* Used for multicasting and broadcasting
+* Almost same as TCP/IP Protocol except 3 ways of handshaking
+* Uses a simple transmission without any hand-shaking which makes less reliable
+
+-------------------------------------------------------------------------
+
+What is IPv4 address?
+
+* An IP address is a 32-bit dynamic address of a node in the network
+* An IPv4 address has 4 octets of 8-bit each with each number with a value up to 255
+
+-------------------------------------------------------------------------
+
+What is Handshaking?
+
+* Establishe communication between 2 networking devices
+* Ex: When 2 computers first connect with each other through modems, handshaking determines which protocols, speeds, compression, and error-correction schemes will be used during communication session
+
+-------------------------------------------------------------------------
+
+What is Broadcasting?
+
+* Transmitting a packet that will be received by every device on network
+
+-------------------------------------------------------------------------
+
+What is Multicasting?
+
+* Is group communication where data transmission is addressed to a group of destination computers simultaneously
+
+-------------------------------------------------------------------------
+
+What is MAC address in NIC?
+
+* Media Access Control 
+* A 48-bit or 64-bit unique identifier of devices in network
+* Also called the physical address embedded with NIC (Network Interface Card)
+
+-------------------------------------------------------------------------
+
+What is DHCP Protocol?
+
+* Dynamic Host Configuration
+* Auto-assign the IPs to devices which enables them to communicate over IP network
 
 -------------------------------------------------------------------------
